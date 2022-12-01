@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* header */
+
+.main{
+    text-align: center;
+
+
+}
+ .menu ul li{
+    display: inline-block;
+
+}
+.main ul li a{
+    text-decoration: none;
+    background-color:#48dbfb;
+    padding: 10px 20px;
+    
+}
+
+  /* header */
+
+.banner{
+    width: auto;
+    height: 400px;
+    background-color: #48dbfb;
+    margin-top: 20px;
+}
+
+
+.banner h1{
+    color: aliceblue;
+    margin-bottom: 90px;
+}
+.banner h2{
+    color: aliceblue;
+}
+.banner a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.banner a::before {
+    content: "\f17b";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-right: 17px 15px;
+}
+
+
+
